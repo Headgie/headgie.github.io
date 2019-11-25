@@ -7,21 +7,43 @@
     <title>Register</title>
 </head>
 <body>
-    <h1>Register</h1>
+    <img src="https://www.pnglot.com/pngfile/detail/221-2211371_click-here-to-register-run-icon-round.png" width="42" height="42">
     <a href="index.html">Back to index</a>
+    <hr>
+    <h1>Register</h1>
+    
     <form>
-        First Name:<input type="text" name="firstname"><br>
-        Last Name:<input type="text" name="lastname"><br>
-        Email:<input type="email" name="email"><br>
-        Password:<input type="password" name="password"><br>
-        Birthday:<input type="date" name="birthday"><br>
-        Gender:<br>
-        <input type="radio" name="gender" value="male">Male<br>
-        <input type="radio" name="gender" value="female">Female<br>
-        
-
-        
-        <input type="submit">
+        <p>
+            First Name:<input type="text" name="firstname" required><br>
+            Last Name:<input type="text" name="lastname" required>
+        </p>
+        <p>
+            Email:<input type="email" name="email" required><br>
+            Password:<input type="password" name="password" required minlength="5"><br>
+        </p>
+        Birthday:<input type="date" name="birthday"required><br>
+        <p>
+            Gender:
+            <input type="radio" name="gender" value="male" required>Male
+            <input type="radio" name="gender" value="female" required>Female
+        </p>
+            Pets:
+            <input type="checkbox" name="cat">Cat
+            <input type="checkbox" name="fish">Fish
+        <p>
+            Best pony:
+            <select name="bestpony">
+                <option value="null"></option>
+                <option value="rainbowdash">Rainbow Dash</option>
+                <option value="twilightsparkle">Twilight Sparkle</option>
+                <option value="fluttershy">Fluttershy</option>
+                <option value="trixie">Trixie</option>
+                <option value="discord">Discord ;P</option>
+            </select>
+        </p>
+        <input type="submit" value="Register!">
+        <input type="reset" value="Reset">      
+        <br><br><hr>   
     </form>
 </body>
 </html>
