@@ -1,0 +1,18 @@
+/* Selector {
+    Property: value;
+} */
+
+body{
+    background-image: url(background-image.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(32, 65, 95);
+    text-align: center;
+    border: purple 5px dashed;
+}
+
+p{
+    color: palevioletred;
+}
